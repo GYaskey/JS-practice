@@ -35,12 +35,54 @@
 //   console.log(i);
 // }
 
-function calculateTotal(number) {
-  let total = 0;
-  for (let add = 1; add <= number; ++add) {
-    total += add;
-  }
-  return total;
-}
+// function calculateTotal(number) {
+//   let total = 0;
+//   for (let add = 1; add <= number; ++add) {
+//     total += add;
+//   }
+//   return total;
+// }
 
-console.log(calculateTotal(10));
+// console.log(calculateTotal(10));
+
+// let array = [1, 2, 3, 4, 5];
+
+// console.log(typeof array);
+
+// function result(params) {
+//   return;
+// }
+
+// console.log(result);
+
+// params = ["w", "e", "r", "t", "t"];
+
+// console.log(typeof params);
+
+// let planets = ["Earth", "Mars", "Venus", "Jupiter", "Saturn"];
+
+// planets = "Hello";
+
+// console.log(planets);
+
+// function calculateTotalPrice(order) {
+//   let result = 0;
+//   for (let index = 0; index < order.length; index++) {
+//     result += order[index];
+//   }
+//   return result;
+// }
+
+// const totalPrice = calculateTotalPrice([164, 48, 291]);
+// console.log(`Total price: ${totalPrice}`);
+
+//TODO:=========task-01=================
+//Напиши функцію findSmallerNumber(numbers)
+//яка шукає найменше число в масиві.
+//Додай перевірку що функція отримує масив
+
+const numbers = [2, 5, 35, 56, 12, 1, 24, 7, 80, 3];
+
+function findSmallerNumber(array) {
+  let;
+}
