@@ -208,14 +208,34 @@
 //   },
 // };
 
-function addOverNum(value, ...args) {
-  let res = 0;
-  for (let arg of args) {
-    if (arg > value) {
-      res += arg;
-    }
-  }
-  return res;
-}
+// function addOverNum(value, ...args) {
+//   let res = 0;
+//   for (let arg of args) {
+//     if (arg > value) {
+//       res += arg;
+//     }
+//   }
+//   return res;
+// }
 
-console.log(addOverNum(15, 32, 6, 13, 19, 8));
+// console.log(addOverNum(15, 32, 6, 13, 19, 8));
+
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}`);
+// });
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//   console.log(`"Eating pizza ${pizzaName}"`);
+// });
+
+const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+
+let line = "Line";
+let line1 = line.toLowerCase();
+
+console.log(line1);
