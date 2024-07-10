@@ -318,3 +318,17 @@
 // };
 
 // console.log(getUsersWithAge(users, 20, 40));
+
+// const form = document.querySelector(".feedback-form");
+// const localStorageKey = "goit-example-message";
+
+// form.addEventListener("input", (evt) => {
+//   localStorage.setItem(localStorageKey, evt.target.value);
+// });
+
+// form.addEventListener("submit", (evt) => {
+//   evt.preventDefault();
+//   console.log(evt.target.elements.message.value);
+//   localStorage.removeItem(localStorageKey);
+//   form.reset();
+// });
